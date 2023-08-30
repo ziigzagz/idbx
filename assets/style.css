@@ -1,41 +1,109 @@
-
 :root {
-  --blue : #1e9ee4;
-  --light-blue : #e7f7ff;
-  --dark-blue : #122C91;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-}
-
-@font-face {
-  font-family: myFirstFont;
-  src: url(font/kanit/Kanit-Light.ttf);
+    --blue: #1D5B79;
+    --danger: #EF6262;
+    --purple: #7533F8;
 }
 
 * {
-  font-family: myFirstFont;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
-  /* background-image: url("img/layout_office.png"); */
-  /* background-color: #cccccc; */
-  background-repeat: no-repeat;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.error {
+    color: var(--danger);
+}
+
+.btn-insert {
+    background-color: var(--blue);
+    color: white;
+}
+
+.btn-insert:hover {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.btn-clear {
+    background-color: var(--danger);
+    color: white;
+}
+
+.btn-clear:hover {
+    border: 1px solid var(--danger);
+    color: var(--danger);
+}
+
+.title-purple {
+    color: var(--purple);
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.half-circle-container {
+    position: relative;
+    background-color: #f0f0f0;
+    /* Background color for the container */
+    overflow: hidden;
+    /* Hide any overflow from the child elements */
+}
+
+.half-circle-top {
+    position: absolute;
+    /* bottom: 0; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 104%;
+    height: 193px;
+    background-color: #003f67;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.half-circle-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 104%;
+    height: 193px;
+    background-color: #003f67;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.content {
+    padding: 20px;
 }
