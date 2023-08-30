@@ -33,8 +33,7 @@
                                         <div class="col text-start">
                                             หน้าที่รับผิดชอบ <span class="text-danger">*</span>
                                             <select name="Roles" id="Roles" class="form-select">
-                                                <option value>--
-                                                    ระบุหน้าที่รับผิดชอบ --</option>
+                                                <option value>-- ระบุหน้าที่รับผิดชอบ --</option>
                                             </select>
                                         </div>
                                     </div>
@@ -44,7 +43,6 @@
                                                 <div class="col-6">
                                                     เริ่ม OT
                                                 </div>
-
                                             </div>
                                             <div class="row">
                                                 <div class="col">
