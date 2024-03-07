@@ -9,9 +9,6 @@ class Home extends CI_Controller
         $this->load->model('Comp_part');
         $this->load->model('User');
         date_default_timezone_set("Asia/Bangkok");
-        // if ($this->session->userdata('flowshoping_id') == null) {
-        //     redirect('Login');
-        // }
     }
     public function index()
     {
