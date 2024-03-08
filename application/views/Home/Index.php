@@ -5,6 +5,7 @@
 	<?php include(APPPATH . 'views/_CSS.php'); ?>
 </head>
 <body>
+<?php include(APPPATH . 'views/Nav/Navbar.php'); ?>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col">
