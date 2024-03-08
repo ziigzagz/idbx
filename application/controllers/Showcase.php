@@ -10,8 +10,6 @@ class Showcase extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('Comp_part');
-        $this->load->model('User');
 		$this->title = "Showcase";
 
 		$this->css[] = "assets/css/Showcase/index.css";

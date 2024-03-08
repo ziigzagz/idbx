@@ -14,11 +14,14 @@
 				<?php include(APPPATH . 'views/Home/Banner.php'); ?>
 			</div>
 		</div>
+		
+		<?php include(APPPATH . 'views/Home/WeAre.php'); ?>
 		<div class="row">
 			<div class="col">
 				<?php include(APPPATH . 'views/Home/EndToEnd.php'); ?>
 			</div>
 		</div>
+			
 	</div>
 	<?php include(APPPATH . 'views/_JS.php'); ?>
 

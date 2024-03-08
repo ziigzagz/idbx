@@ -15,8 +15,10 @@ class Home extends CI_Controller
 		$this->title = "Home";
 
 		$this->css[] = "assets/css/Home/index.css";
-
+		$this->css[] = "assets/libs/swap-image/swap-image.css";
+		
 		$this->js[] = "assets/js/Home/index.js";
+		$this->js[] = "assets/libs/swap-image/swap-image.js";
 
 		$this->data['title'] = $this->title;
 		$this->data['js'] = $this->js;
