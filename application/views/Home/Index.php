@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<?php include(APPPATH . 'views/_Header.php'); ?>
+	<?php include(APPPATH . 'views/_CSS.php'); ?>
 </head>
 <body>
 	<div class="container-fluid">
@@ -17,6 +18,6 @@
 		</div>
 	</div>
 	<?php include(APPPATH . 'views/_JS.php'); ?>
-	
+
 </body>
 </html>
