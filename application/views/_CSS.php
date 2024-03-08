@@ -29,4 +29,11 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css"
   integrity="sha512-34s5cpvaNG3BknEWSuOncX28vz97bRI59UnVtEEpFX536A7BtZSJHsDyFoCl8S7Dt2TPzcrCEoHBGeM4SUBDBw=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="<?php echo base_url()?>assets\style.css">
+ 
+
+
+<?php
+	foreach ($css as $key => $value) { ?>
+		<link rel="stylesheet" href="<?php echo base_url()?><?php echo $value;?>">
+	<?php }
+ ?>
