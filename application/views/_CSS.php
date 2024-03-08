@@ -1,15 +1,4 @@
 <link rel="stylesheet" href="<?php echo base_url()?>node_modules\bootstrap\dist\css\bootstrap.min.css">
-
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-buttons-dt\css\buttons.dataTables.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-dt\css\jquery.dataTables.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-editor-dt\css\editor.bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-responsive-dt\css\responsive.dataTables.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-rowgroup-dt\css\rowGroup.dataTables.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-rowreorder-dt\css\rowReorder.dataTables.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-scroller-dt\css\scroller.dataTables.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-searchbuilder-dt\css\searchBuilder.dataTables.min.css">
-<link rel="stylesheet" href="<?php echo base_url()?>node_modules\datatables.net-datetime\dist\dataTables.dateTime.min.css">
-
 <link rel="stylesheet" href="<?php echo base_url()?>node_modules\sweetalert2\dist\sweetalert2.min.css">
 <link rel="stylesheet" href="<?php echo base_url()?>node_modules\apexcharts\dist\apexcharts.css">
 <link rel="stylesheet" href="<?php echo base_url()?>node_modules\highcharts\css\highcharts.css">
@@ -30,8 +19,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
+<!-- End of Google Font -->
 
 <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css"
