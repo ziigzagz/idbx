@@ -1,0 +1,30 @@
+:root {
+    --blue: #1D5B79;
+    --danger: #EF6262;
+    --purple: #7533F8;
+    --tuscany: #FFBB29;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+/* Nav */
+.navbar
+{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+.nav-link.active{
+	color: var(--tuscany) !important;
+}
+/* End of Nav */
