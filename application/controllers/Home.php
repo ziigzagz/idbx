@@ -15,5 +15,6 @@ class Home extends CI_Controller
         $this->load->view('css');
         $this->load->view('js');
         $this->load->view('Home');
+		
     }
 }
