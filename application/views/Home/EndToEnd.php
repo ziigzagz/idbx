@@ -18,10 +18,20 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-md-6">
-
+		<div class="col-12 col-md-4">
+			<div class="end-to-end-list">
+				<div class="end-to-end-item active d-flex">
+					<div class="end-to-end-item-icon d-flex fs-dm-sans">
+						<img src="assets/img/01-Homepage/_Icon/ic-target.svg" alt="">
+					</div>
+					<div class="end-to-end-item-title fs-dm-sans fs-16">
+						Improving Target Audience Impression.
+						<br> Up to 99% of Target Group
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-12 col-md-6">
+		<div class="col-12 col-md-8">
 			<div class="slider-main">
 				<div class="slider-images">
 					<img class="slider-image" src="assets/img/01-Homepage/Solution01.png" alt="headphone image">

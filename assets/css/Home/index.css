@@ -58,4 +58,25 @@
 	top: 5vw;
 	z-index: -1;
 }
+
+.end-to-end-list{
+
+}
+
+.end-to-end-item{
+	padding: 16px 24px 16px 24px;
+	border-radius: 12px;
+	gap: 16px;
+}
+.end-to-end-item.active{
+	background-color: #F4F4F4;
+}
+
+.end-to-end-item-title{
+
+}
+
+.end-to-end-item-subtitle{
+
+}
 /* End of end to end */
