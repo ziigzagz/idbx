@@ -29,6 +29,42 @@
 						<br> Up to 99% of Target Group
 					</div>
 				</div>
+				<div class="end-to-end-item active d-flex">
+					<div class="end-to-end-item-icon d-flex fs-dm-sans">
+						<img src="assets/img/01-Homepage/_Icon/ic-target.svg" alt="">
+					</div>
+					<div class="end-to-end-item-title fs-dm-sans fs-16">
+						Improving Target Audience Impression.
+						<br> Up to 99% of Target Group
+					</div>
+				</div>
+				<div class="end-to-end-item active d-flex">
+					<div class="end-to-end-item-icon d-flex fs-dm-sans">
+						<img src="assets/img/01-Homepage/_Icon/ic-target.svg" alt="">
+					</div>
+					<div class="end-to-end-item-title fs-dm-sans fs-16">
+						Improving Target Audience Impression.
+						<br> Up to 99% of Target Group
+					</div>
+				</div>
+				<div class="end-to-end-item active d-flex">
+					<div class="end-to-end-item-icon d-flex fs-dm-sans">
+						<img src="assets/img/01-Homepage/_Icon/ic-target.svg" alt="">
+					</div>
+					<div class="end-to-end-item-title fs-dm-sans fs-16">
+						Improving Target Audience Impression.
+						<br> Up to 99% of Target Group
+					</div>
+				</div>
+				<div class="end-to-end-item active d-flex">
+					<div class="end-to-end-item-icon d-flex fs-dm-sans">
+						<img src="assets/img/01-Homepage/_Icon/ic-target.svg" alt="">
+					</div>
+					<div class="end-to-end-item-title fs-dm-sans fs-16">
+						Improving Target Audience Impression.
+						<br> Up to 99% of Target Group
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-12 col-md-8">
